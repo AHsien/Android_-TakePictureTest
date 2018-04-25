@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="my_images" path="Android/data/tw.org.iii.takepicturetest/files/Pictures" />
+</paths>
+
+<!--
+
+path 属性用于指定当前子元素所代表目录下需要共享的子目录名称。
+注意：path 属性值不能使用具体的独立文件名，只能是目录名。
+path只能添加一个路径，如果需要共享多个则指定多个即可。
+name 属性用于给 path 属性所指定的子目录名称取一个别名。
+后续生成 content:// URI 时，会使用这个别名代替真实目录名。
+这样做的目的，很显然是为了提高安全性。
+
+
+-->
